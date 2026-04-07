@@ -28,10 +28,23 @@ body {
     border: 1px solid #9d2eb5;
 }
 
-img {
-    max-width: 500px;
-    border-radius: 9px;
-    border: 1px solid #9d2eb5;
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.big-pic {
+    max-width: 350px;
+    border: 2px solid #9d2eb5;
+    border-radius: 13px;
+}
+
+.gif {
+    max-width: 175px;
+    border-radius: 10px;
 }
 
 a {
