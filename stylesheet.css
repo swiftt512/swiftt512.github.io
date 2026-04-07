@@ -43,7 +43,11 @@ body {
 }
 
 .gif {
-    max-width: 500px;
+    flex: 1;
+    max-width: none;
+    height:300px;
+    object-fit: cover;
+    border: 2px solid #9d2eb5;
     border-radius: 10px;
 }
 
